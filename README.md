@@ -1,4 +1,4 @@
-# Sensitive Subspace Robustness (SenSR)
+# Sensitive Subspace Robustness (SenSR) 
 
 Code for paper [Learning fair predictors with Sensitive Subspace Robustness](https://arxiv.org/pdf/1907.00020.pdf).
 
