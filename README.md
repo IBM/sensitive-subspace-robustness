@@ -7,4 +7,5 @@ sentiment.py script demonstrates how to use SenSR to eliminate gender and racial
 bios_gender_consistency_phrases.py script contains list of phrases that we used for the gender consistency metric on Bios data
 
 Bios dataset was downloaded and processed using code from https://github.com/microsoft/biosbias
+
 Processed Bios dataset: https://drive.google.com/file/d/1mymQE1qiQ3CRu8yweZm7MuKfT1cZ8-_q/view?usp=sharing
