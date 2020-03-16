@@ -463,13 +463,13 @@ def run_experiments(name, num_exp, directory):
     for (variable, name) in save_info:
         save_to_file(directory, variable, name)
 
-num_exp = 1
+num_exp = 10
 
 # change path_to_save_experiments to the directoy where you want to save the results of the experiments
 # and create a folder called experiments with 4 subfolders named baseline, project, sensr, adv_deb
 path_to_save_experiments = './experiments/'
 
-# run_experiments('baseline', num_exp, path_to_save_experiments +'baseline/')
-# run_experiments('project', num_exp, path_to_save_experiments + 'project/')
+run_experiments('baseline', num_exp, path_to_save_experiments +'baseline/')
+run_experiments('project', num_exp, path_to_save_experiments + 'project/')
 run_experiments('SenSR', num_exp, path_to_save_experiments + 'sensr/')
-# run_experiments('adv_deb', num_exp, path_to_save_experiments + 'adv_deb/')
+run_experiments('adv_deb', num_exp, path_to_save_experiments + 'adv_deb/')
